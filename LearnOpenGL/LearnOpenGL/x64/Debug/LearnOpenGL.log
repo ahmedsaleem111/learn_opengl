@@ -5,6 +5,15 @@ C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Ve
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\VertexBufferLayout.h(57,69): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\VertexBufferLayout.h(35,17): error C2607: static assertion failed
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\VertexBufferLayout.h(34,7): message : This diagnostic occurred in the compiler generated function 'void VertexBufferLayout::Push(unsigned int)'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Shader.h(14,1): error C2059: syntax error: '{'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Application.cpp(17,1): error C2628: 'Shader' followed by 'int' is illegal (did you forget a ';'?)
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Application.cpp(17,5): error C3874: return type of 'main' should be 'int' instead of 'Shader'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Application.cpp(23,9): error C2440: 'return': cannot convert from 'int' to 'Shader'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Application.cpp(23,9): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Application.cpp(34,9): error C2440: 'return': cannot convert from 'int' to 'Shader'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Application.cpp(34,9): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Application.cpp(127,5): error C2440: 'return': cannot convert from 'int' to 'Shader'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Application.cpp(127,5): message : No constructor could take the source type, or constructor overload resolution was ambiguous
   IndexBuffer.cpp
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(6,14): error C2511: 'IndexBuffer::IndexBuffer(const void *,unsigned int)': overloaded member function not found in 'IndexBuffer'
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.h(3,7): message : see declaration of 'IndexBuffer'
@@ -15,6 +24,11 @@ C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\In
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(11,5): message : There is no context in which this conversion is possible
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(12,5): error C2597: illegal reference to non-static member 'IndexBuffer::m_RendererID'
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.h(6,15): message : see declaration of 'IndexBuffer::m_RendererID'
+  Shader.cpp
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\Shader.h(14,1): error C2059: syntax error: '{'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\iterator(21,1): error C2059: syntax error: 'namespace'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\iterator(21,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\iterator(21,1): error C2447: '{': missing function header (old-style formal list?)
   VertexArray.cpp
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\VertexBufferLayout.h(57,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\VertexBufferLayout.h(57,49): error C3646: 'GetElements': unknown override specifier
