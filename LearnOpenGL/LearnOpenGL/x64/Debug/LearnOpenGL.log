@@ -1,5 +1,13 @@
 ﻿  Application.cpp
-glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  LearnOpenGL.vcxproj -> C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\x64\Debug\LearnOpenGL.exe
+  IndexBuffer.cpp
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(6,14): error C2511: 'IndexBuffer::IndexBuffer(const void *,unsigned int)': overloaded member function not found in 'IndexBuffer'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.h(3,7): message : see declaration of 'IndexBuffer'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(8,1): error C2550: 'IndexBuffer::{ctor}': constructor initializer lists are only allowed on constructor definitions
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(11,5): error C2597: illegal reference to non-static member 'IndexBuffer::m_RendererID'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.h(6,15): message : see declaration of 'IndexBuffer::m_RendererID'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(11,5): error C2664: 'void (GLsizei,GLuint *)': cannot convert argument 2 from 'unsigned int IndexBuffer::* ' to 'GLuint *'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(11,5): message : There is no context in which this conversion is possible
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.cpp(12,5): error C2597: illegal reference to non-static member 'IndexBuffer::m_RendererID'
+C:\Users\18055\Documents\Local_Repos\learn_opengl\LearnOpenGL\LearnOpenGL\src\IndexBuffer.h(6,15): message : see declaration of 'IndexBuffer::m_RendererID'
+  VertexBuffer.cpp
+  Generating Code...
